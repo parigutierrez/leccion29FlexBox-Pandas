@@ -6,64 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pandas3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   </head>
   <body>
     <header class="container" id="seccion-header">
-      <section class="container" id="seccion-titulo">
-        <img src="images/panda.png" id="logo">
-        <h1>Los Pandas</h1>
-        </section>
-        <nav class="container navbar-inverse">
-          <a href="#">Inicio</a>
-          <a href="#">Pandas</a>
-          <a href="#">Historia</a>
-          <a href="#">Extinción</a>
-        </nav>
+
+        <div class="container">
+          <div class="row">
+              <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+                <div class="col-md-offset-1">
+                      <div class="menu col-md-1">
+                          <a href="#">Inicio</a>
+                      </div>
+                      <div class="menu col-md-1">
+                          <a href="#">Pandas</a>
+                      </div>
+                      <div class="menu col-md-1">
+                          <a href="#">Historia</a>
+                      </div>
+                      <div class="menu col-md-1">
+                          <a href="#">Extinción</a>
+                      </div>
+                </div>
+              </nav>
+          </div>
+        </div>
+
+
     </header>
     <section class="container" id="seccion-pandas">
+
+
+
       <div class="row">
-        <div class="col-md-12">
-          <div class="col-md-3">
+        <div class="col-md-12 pandas">
+          <div class="col-md-2 marco">
             <span class="btn btn-default" id="cerrar1">&times;</span>
-            <img class="img-responsive" src="images/1.jpg" alt="">
+            <img class="img-responsive img-rounded" src="images/1.jpg" alt="">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2 marco">
             <span class="btn btn-default" id="cerrar2">&times;</span>
-            <img class="img-responsive" src="images/3.jpg" alt="">
+            <img class="img-responsive img-rounded" src="images/3.jpg" alt="">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2 marco">
             <span class="btn btn-default" id="cerrar3">&times;</span>
-            <img class="img-responsive" src="images/5.jpg" alt="">
+            <img class="img-responsive img-rounded" src="images/5.jpg" alt="">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2 marco">
             <span class="btn btn-default" id="cerrar4">&times;</span>
-            <img class="img-responsive" src="images/4.jpg" alt="">
+            <img class="img-responsive img-rounded" src="images/4.jpg" alt="">
           </div>
         </div>
-        </div>
+      </div>
 
     </section>
 
     <section class="container" id="botones">
       <div class="row">
-        <div class="btn-group col-md-12">
-          <button class="btn btn-success col-md-2" id="origen" type="button" name="button">Origen</button>
-          <button class="btn btn-success col-md-2" id="extincion"type="button" name="button">Extinción</button>
-          <button class="btn btn-success col-md-2" id="restaurar"type="button" name="button">Restaurar Fotos</button>
+        <div class="btn-group col-md-6 col-md-offset-3">
+          <button class="btn btn-success col-md-3 col-md-offset" id="origen" type="button" name="button">Origen</button>
+          <button class="btn btn-primary col-md-3" id="extincion"type="button" name="button">Extinción</button>
+          <button class="btn btn-success col-md-3" id="restaurar"type="button" name="button">Restaurar Fotos</button>
         </div>
 
       </div>
     </section>
 
-    <section class="container" id="parrafos">
-      <p id="pUno">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p id="pDos">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <section class="container col-md-12 parrafos" id="parrafos">
+      <p class="col-md-12" id="pUno">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="col-md-12" id="pDos">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
 
-    <footer class="container">
+    <footer class="container col-md-12 navbar-inverse">
       <div class="row">
-        <div class="col-sm-6 col-md-2 col-md-offset-4">
+        <div class="col-md-offset-4 col-md-4 col-md-offset-4">
           <p>Pari@chicasDelCoro</p>
         </div>
       </div>

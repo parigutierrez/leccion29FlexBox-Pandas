@@ -1,0 +1,26 @@
+a{
+  padding-top: 2%;
+}
+.pandas{
+    padding: 100px 50px 50px 100px;
+
+}
+
+.marco{
+    background-color: yellow;
+    border: 2px solid aliceblue;
+    width: 250px;
+    height: 330px;
+    border-radius: 5px;
+}
+button{
+  margin: 15px;
+}
+p{
+    padding: 50px 20px 20px 20px;
+}
+
+footer div div p{
+  color:white;
+  margin-left: 95px;
+}
